@@ -1,0 +1,401 @@
+txn_id,date,department,assigned_employee,task_type,counterparty,currency,amount,procedure_id,status
+TX-0001,2026-09-01,Accounts Payable,E04,invoice_entry,Harbor IT Services,USD,43406.4,PROC-AP-02,posted
+TX-0002,2026-09-01,Accounts Payable,E06,payment_run,Harbor IT Services,GBP,121306.54,PROC-AP-05,posted
+TX-0003,2026-09-01,Accounts Payable,E04,vendor_reconciliation,Pinnacle Packaging,USD,80767.3,PROC-AP-08,posted
+TX-0004,2026-09-01,Accounts Payable,E06,payment_run,Brightline Supplies,USD,126952.25,PROC-AP-05,posted
+TX-0005,2026-09-01,Accounts Payable,E05,invoice_entry,Nexa Office Ltd,NGN,54890.61,PROC-AP-02,posted
+TX-0006,2026-09-01,Accounts Payable,E05,invoice_entry,Nexa Office Ltd,GBP,29016.75,PROC-AP-02,posted
+TX-0007,2026-09-01,Accounts Payable,E05,invoice_entry,Pinnacle Packaging,EUR,33708.83,PROC-AP-02,rejected_by_review
+TX-0008,2026-09-01,Accounts Payable,E05,payment_run,Pinnacle Packaging,USD,232549.99,PROC-AP-05,posted
+TX-0009,2026-09-01,Accounts Receivable,E08,credit_note,Crestline Motors,USD,2036.51,PROC-AR-06,posted
+TX-0010,2026-09-01,Accounts Receivable,E08,invoice_issue,Bluewave Foods,GBP,24896.63,PROC-AR-01,posted
+TX-0011,2026-09-01,Accounts Receivable,E08,invoice_issue,Jade Capital,USD,55804.51,PROC-AR-01,posted
+TX-0012,2026-09-01,Financial Reporting,E03,reconciliation,Meridian Group - London,USD,94278.29,PROC-FR-03,posted
+TX-0013,2026-09-01,Financial Reporting,E03,consolidation,Meridian Group - London,EUR,265797.27,PROC-FR-07,corrected_in_review
+TX-0014,2026-09-01,Financial Reporting,E03,consolidation,Meridian Holdings,USD+EUR+GBP,2121705.74,PROC-FR-07,posted
+TX-0015,2026-09-02,Accounts Payable,E04,payment_run,Brightline Supplies,NGN,227734.31,PROC-AP-05,posted
+TX-0016,2026-09-02,Accounts Payable,E04,payment_run,Harbor IT Services,USD,174019.58,PROC-AP-05,posted
+TX-0017,2026-09-02,Accounts Payable,E04,vendor_reconciliation,Summit Insurance,GBP,111620.37,PROC-AP-08,posted
+TX-0018,2026-09-02,Accounts Payable,E04,invoice_entry,Tidewater Freight,NGN,47695.76,PROC-AP-02,rejected_by_review
+TX-0019,2026-09-02,Accounts Payable,E06,payment_run,Nexa Office Ltd,USD,91320.4,PROC-AP-05,posted
+TX-0020,2026-09-02,Accounts Payable,E06,invoice_entry,Tidewater Freight,USD,57310.48,PROC-AP-02,posted
+TX-0021,2026-09-02,Accounts Receivable,E07,invoice_issue,Ivory Hotels,NGN,11011.89,PROC-AR-01,posted
+TX-0022,2026-09-02,Accounts Receivable,E08,credit_note,Evergreen Pharma,USD,490.22,PROC-AR-06,posted
+TX-0023,2026-09-02,Accounts Receivable,E07,credit_note,Dune Energy,USD,548.01,PROC-AR-06,posted
+TX-0024,2026-09-02,Accounts Receivable,E07,invoice_issue,Falcon Mining,USD,28402.78,PROC-AR-01,rejected_by_review
+TX-0025,2026-09-02,Accounts Receivable,E08,credit_note,Gateway Telecom,GBP,3209.99,PROC-AR-06,posted
+TX-0026,2026-09-02,Accounts Receivable,E08,credit_note,Evergreen Pharma,USD,10830.65,PROC-AR-06,rejected_by_review
+TX-0027,2026-09-02,Accounts Receivable,E07,credit_note,Horizon Textiles,USD,6007.6,PROC-AR-06,posted
+TX-0028,2026-09-02,Financial Reporting,E01,reconciliation,Meridian Group - London,USD,382902.33,PROC-FR-03,posted
+TX-0029,2026-09-02,Financial Reporting,E03,reconciliation,Meridian Holdings,USD,36017.55,PROC-FR-03,posted
+TX-0030,2026-09-02,Financial Reporting,E03,reconciliation,Meridian Group - Lagos,USD,131735.16,PROC-FR-03,posted
+TX-0031,2026-09-02,Financial Reporting,E03,consolidation,Meridian Holdings,EUR+NGN,743674.8,PROC-FR-07,posted
+TX-0032,2026-09-02,Financial Reporting,E01,report_prep,Meridian Group - Accra,USD,313172.16,PROC-FR-11,rejected_by_review
+TX-0033,2026-09-02,Financial Reporting,E03,reconciliation,Meridian Group - Lagos,USD,300389.76,PROC-FR-03,posted
+TX-0034,2026-09-03,Accounts Payable,E05,vendor_reconciliation,Pinnacle Packaging,GBP,109172.06,PROC-AP-08,posted
+TX-0035,2026-09-03,Accounts Payable,E04,payment_run,Pinnacle Packaging,GBP,198825.54,PROC-AP-05,posted
+TX-0036,2026-09-03,Accounts Payable,E06,invoice_entry,Orbit Telecom,USD,56194.77,PROC-AP-02,posted
+TX-0037,2026-09-03,Accounts Payable,E06,vendor_reconciliation,Greenfield Agro,USD,112234.39,PROC-AP-08,posted
+TX-0038,2026-09-03,Accounts Payable,E04,vendor_reconciliation,Olu Print Works,GBP,21496.61,PROC-AP-08,posted
+TX-0039,2026-09-03,Accounts Payable,E05,invoice_entry,Summit Insurance,USD,40637.44,PROC-AP-02,posted
+TX-0040,2026-09-03,Accounts Payable,E06,payment_run,Olu Print Works,USD,127572.92,PROC-AP-05,posted
+TX-0041,2026-09-03,Accounts Payable,E06,vendor_reconciliation,Summit Insurance,USD,95327.52,PROC-AP-08,posted
+TX-0042,2026-09-03,Accounts Payable,E04,vendor_reconciliation,Tidewater Freight,USD,55474.59,PROC-AP-08,posted
+TX-0043,2026-09-03,Accounts Receivable,E07,invoice_issue,Atlas Retail,NGN,3283.6,PROC-AR-01,posted
+TX-0044,2026-09-03,Accounts Receivable,E08,invoice_issue,Jade Capital,USD,47969.69,PROC-AR-01,rejected_by_review
+TX-0045,2026-09-03,Accounts Receivable,E07,invoice_issue,Jade Capital,NGN,49713.56,PROC-AR-01,corrected_in_review
+TX-0046,2026-09-03,Financial Reporting,E03,consolidation,Meridian Group - Accra,GBP+NGN,1616592.19,PROC-FR-07,posted
+TX-0047,2026-09-03,Financial Reporting,E02,report_prep,Meridian Group - Accra,USD,246829.04,PROC-FR-11,posted
+TX-0048,2026-09-03,Financial Reporting,E01,reconciliation,Meridian Group - London,USD,120342.79,PROC-FR-03,rejected_by_review
+TX-0049,2026-09-03,Financial Reporting,E02,report_prep,Meridian Group - Lagos,USD,243390.71,PROC-FR-11,posted
+TX-0050,2026-09-03,Financial Reporting,E01,consolidation,Meridian Group - London,USD,730229.87,PROC-FR-07,posted
+TX-0051,2026-09-03,Financial Reporting,E02,reconciliation,Meridian Holdings,USD,131978.22,PROC-FR-03,posted
+TX-0052,2026-09-03,Financial Reporting,E01,report_prep,Meridian Group - Accra,EUR,883350.7,PROC-FR-11,corrected_in_review
+TX-0053,2026-09-04,Accounts Payable,E05,invoice_entry,Nexa Office Ltd,NGN,18971.74,PROC-AP-02,posted
+TX-0054,2026-09-04,Accounts Payable,E04,invoice_entry,Tidewater Freight,GBP,50152.81,PROC-AP-02,posted
+TX-0055,2026-09-04,Accounts Payable,E06,payment_run,Brightline Supplies,USD,77259.07,PROC-AP-05,posted
+TX-0056,2026-09-04,Accounts Payable,E04,payment_run,Savanna Utilities,USD,62545.51,PROC-AP-05,corrected_in_review
+TX-0057,2026-09-04,Accounts Payable,E05,vendor_reconciliation,Greenfield Agro,NGN,91585.2,PROC-AP-08,posted
+TX-0058,2026-09-04,Accounts Payable,E06,invoice_entry,Kora Logistics,USD,38087.54,PROC-AP-02,posted
+TX-0059,2026-09-04,Accounts Payable,E05,invoice_entry,Nexa Office Ltd,USD,17281.29,PROC-AP-02,corrected_in_review
+TX-0060,2026-09-04,Accounts Payable,E06,invoice_entry,Greenfield Agro,USD,57918.82,PROC-AP-02,posted
+TX-0061,2026-09-04,Accounts Payable,E04,invoice_entry,Brightline Supplies,USD,5906.66,PROC-AP-02,posted
+TX-0062,2026-09-04,Accounts Payable,E04,invoice_entry,Nexa Office Ltd,USD,58829.31,PROC-AP-02,posted
+TX-0063,2026-09-04,Accounts Payable,E05,payment_run,Orbit Telecom,USD,47499.42,PROC-AP-05,posted
+TX-0064,2026-09-04,Accounts Receivable,E07,receipt_matching,Jade Capital,USD,20066.28,PROC-AR-04,posted
+TX-0065,2026-09-04,Accounts Receivable,E07,receipt_matching,Jade Capital,USD,7252.39,PROC-AR-04,posted
+TX-0066,2026-09-04,Accounts Receivable,E07,receipt_matching,Dune Energy,USD,35304.67,PROC-AR-04,posted
+TX-0067,2026-09-04,Financial Reporting,E02,report_prep,Meridian Group - London,USD,51584.81,PROC-FR-11,posted
+TX-0068,2026-09-04,Financial Reporting,E02,reconciliation,Meridian Group - London,EUR,69326.76,PROC-FR-03,rejected_by_review
+TX-0069,2026-09-04,Financial Reporting,E02,consolidation,Meridian Holdings,EUR+GBP,1775316.38,PROC-FR-07,posted
+TX-0070,2026-09-04,Financial Reporting,E01,consolidation,Meridian Group - Lagos,EUR+NGN,329972.68,PROC-FR-07,posted
+TX-0071,2026-09-07,Accounts Payable,E04,invoice_entry,Greenfield Agro,USD,39853.51,PROC-AP-02,posted
+TX-0072,2026-09-07,Accounts Payable,E06,invoice_entry,Kora Logistics,USD,20025.39,PROC-AP-02,posted
+TX-0073,2026-09-07,Accounts Payable,E06,payment_run,Tidewater Freight,USD,118512.47,PROC-AP-05,posted
+TX-0074,2026-09-07,Accounts Payable,E04,vendor_reconciliation,Delta Courier,GBP,108126.1,PROC-AP-08,posted
+TX-0075,2026-09-07,Financial Reporting,E02,reconciliation,Meridian Holdings,USD,328757.35,PROC-FR-03,posted
+TX-0076,2026-09-07,Financial Reporting,E03,consolidation,Meridian Group - Accra,USD+EUR+GBP,1481556.19,PROC-FR-07,posted
+TX-0077,2026-09-08,Accounts Payable,E04,invoice_entry,Summit Insurance,EUR,59385.32,PROC-AP-02,corrected_in_review
+TX-0078,2026-09-08,Accounts Payable,E05,invoice_entry,Brightline Supplies,GBP,41861.64,PROC-AP-02,rejected_by_review
+TX-0079,2026-09-08,Accounts Payable,E05,invoice_entry,Tidewater Freight,NGN,18770.33,PROC-AP-02,posted
+TX-0080,2026-09-08,Accounts Payable,E06,payment_run,Orbit Telecom,USD,45765.62,PROC-AP-05,posted
+TX-0081,2026-09-08,Accounts Payable,E05,invoice_entry,Kora Logistics,GBP,1711.5,PROC-AP-02,posted
+TX-0082,2026-09-08,Accounts Payable,E05,payment_run,Greenfield Agro,NGN,88767.44,PROC-AP-05,posted
+TX-0083,2026-09-08,Accounts Payable,E04,invoice_entry,Delta Courier,GBP,20109.37,PROC-AP-02,posted
+TX-0084,2026-09-08,Accounts Payable,E06,payment_run,Delta Courier,EUR,128407.5,PROC-AP-05,posted
+TX-0085,2026-09-08,Accounts Payable,E06,vendor_reconciliation,Greenfield Agro,USD,37564.97,PROC-AP-08,posted
+TX-0086,2026-09-08,Accounts Payable,E04,invoice_entry,Kora Logistics,USD,23018.07,PROC-AP-02,rejected_by_review
+TX-0087,2026-09-08,Accounts Receivable,E08,credit_note,Jade Capital,NGN,13568.37,PROC-AR-06,posted
+TX-0088,2026-09-08,Accounts Receivable,E07,receipt_matching,Dune Energy,GBP,28217.66,PROC-AR-04,rejected_by_review
+TX-0089,2026-09-08,Accounts Receivable,E07,invoice_issue,Dune Energy,USD,22142.47,PROC-AR-01,posted
+TX-0090,2026-09-08,Accounts Receivable,E07,credit_note,Ivory Hotels,USD,3545.88,PROC-AR-06,corrected_in_review
+TX-0091,2026-09-08,Accounts Receivable,E08,credit_note,Ivory Hotels,USD,9288.21,PROC-AR-06,posted
+TX-0092,2026-09-08,Accounts Receivable,E08,invoice_issue,Ivory Hotels,USD,74715.58,PROC-AR-01,posted
+TX-0093,2026-09-08,Accounts Receivable,E07,receipt_matching,Gateway Telecom,USD,18997.41,PROC-AR-04,posted
+TX-0094,2026-09-08,Financial Reporting,E02,report_prep,Meridian Group - Accra,EUR,888544.26,PROC-FR-11,posted
+TX-0095,2026-09-08,Financial Reporting,E02,report_prep,Meridian Group - Lagos,USD,685218.52,PROC-FR-11,posted
+TX-0096,2026-09-08,Financial Reporting,E03,consolidation,Meridian Holdings,USD,146069.39,PROC-FR-07,rejected_by_review
+TX-0097,2026-09-08,Financial Reporting,E02,consolidation,Meridian Group - Lagos,USD,1073543.07,PROC-FR-07,posted
+TX-0098,2026-09-08,Financial Reporting,E01,consolidation,Meridian Group - London,USD,1655235.52,PROC-FR-07,posted
+TX-0099,2026-09-09,Accounts Payable,E06,invoice_entry,Harbor IT Services,USD,26003.96,PROC-AP-02,posted
+TX-0100,2026-09-09,Accounts Payable,E05,payment_run,Greenfield Agro,USD,95358.35,PROC-AP-05,posted
+TX-0101,2026-09-09,Accounts Payable,E06,vendor_reconciliation,Summit Insurance,GBP,43209.54,PROC-AP-08,corrected_in_review
+TX-0102,2026-09-09,Accounts Payable,E04,vendor_reconciliation,Pinnacle Packaging,USD,96619.79,PROC-AP-08,rejected_by_review
+TX-0103,2026-09-09,Accounts Payable,E06,payment_run,Nexa Office Ltd,USD,126271.13,PROC-AP-05,posted
+TX-0104,2026-09-09,Accounts Payable,E05,payment_run,Kora Logistics,USD,106920.29,PROC-AP-05,rejected_by_review
+TX-0105,2026-09-09,Accounts Payable,E06,invoice_entry,Nexa Office Ltd,GBP,35568.42,PROC-AP-02,posted
+TX-0106,2026-09-09,Accounts Receivable,E08,receipt_matching,Crestline Motors,USD,62851.0,PROC-AR-04,posted
+TX-0107,2026-09-09,Accounts Receivable,E08,receipt_matching,Horizon Textiles,USD,26847.72,PROC-AR-04,posted
+TX-0108,2026-09-09,Accounts Receivable,E07,credit_note,Gateway Telecom,GBP,11911.75,PROC-AR-06,corrected_in_review
+TX-0109,2026-09-09,Accounts Receivable,E07,receipt_matching,Evergreen Pharma,USD,34579.01,PROC-AR-04,posted
+TX-0110,2026-09-09,Accounts Receivable,E07,receipt_matching,Bluewave Foods,USD,31651.79,PROC-AR-04,posted
+TX-0111,2026-09-09,Accounts Receivable,E08,receipt_matching,Bluewave Foods,GBP,8566.34,PROC-AR-04,posted
+TX-0112,2026-09-09,Accounts Receivable,E07,credit_note,Jade Capital,NGN,14311.02,PROC-AR-06,posted
+TX-0113,2026-09-09,Accounts Receivable,E08,invoice_issue,Falcon Mining,USD,39675.72,PROC-AR-01,posted
+TX-0114,2026-09-09,Accounts Receivable,E08,invoice_issue,Bluewave Foods,USD,57133.37,PROC-AR-01,posted
+TX-0115,2026-09-09,Accounts Receivable,E08,invoice_issue,Evergreen Pharma,USD,19121.1,PROC-AR-01,posted
+TX-0116,2026-09-09,Accounts Receivable,E07,invoice_issue,Bluewave Foods,USD,76706.81,PROC-AR-01,posted
+TX-0117,2026-09-09,Accounts Receivable,E08,credit_note,Dune Energy,GBP,12342.13,PROC-AR-06,posted
+TX-0118,2026-09-09,Accounts Receivable,E07,receipt_matching,Horizon Textiles,EUR,35654.89,PROC-AR-04,corrected_in_review
+TX-0119,2026-09-09,Accounts Receivable,E07,receipt_matching,Crestline Motors,USD,46873.13,PROC-AR-04,posted
+TX-0120,2026-09-09,Financial Reporting,E03,reconciliation,Meridian Group - Lagos,EUR,338267.91,PROC-FR-03,posted
+TX-0121,2026-09-09,Financial Reporting,E03,reconciliation,Meridian Group - Accra,USD,74528.06,PROC-FR-03,rejected_by_review
+TX-0122,2026-09-09,Financial Reporting,E02,consolidation,Meridian Holdings,USD,697395.61,PROC-FR-07,posted
+TX-0123,2026-09-10,Accounts Payable,E05,invoice_entry,Nexa Office Ltd,EUR,53442.16,PROC-AP-02,posted
+TX-0124,2026-09-10,Accounts Payable,E04,payment_run,Orbit Telecom,GBP,136686.27,PROC-AP-05,posted
+TX-0125,2026-09-10,Accounts Payable,E05,invoice_entry,Greenfield Agro,NGN,58584.5,PROC-AP-02,corrected_in_review
+TX-0126,2026-09-10,Accounts Payable,E06,vendor_reconciliation,Nexa Office Ltd,USD,84083.91,PROC-AP-08,posted
+TX-0127,2026-09-10,Accounts Payable,E06,invoice_entry,Brightline Supplies,EUR,44501.19,PROC-AP-02,posted
+TX-0128,2026-09-10,Accounts Payable,E04,payment_run,Nexa Office Ltd,NGN,76576.43,PROC-AP-05,posted
+TX-0129,2026-09-10,Accounts Payable,E06,vendor_reconciliation,Orbit Telecom,USD,111862.78,PROC-AP-08,posted
+TX-0130,2026-09-10,Accounts Payable,E05,invoice_entry,Summit Insurance,USD,23350.57,PROC-AP-02,posted
+TX-0131,2026-09-10,Accounts Payable,E04,invoice_entry,Olu Print Works,EUR,10280.29,PROC-AP-02,posted
+TX-0132,2026-09-10,Accounts Receivable,E07,invoice_issue,Falcon Mining,USD,15512.15,PROC-AR-01,posted
+TX-0133,2026-09-10,Accounts Receivable,E07,invoice_issue,Jade Capital,USD,13268.2,PROC-AR-01,posted
+TX-0134,2026-09-10,Accounts Receivable,E07,receipt_matching,Dune Energy,USD,22142.47,PROC-AR-04,rejected_by_review
+TX-0135,2026-09-10,Accounts Receivable,E08,receipt_matching,Ivory Hotels,USD,25410.15,PROC-AR-04,posted
+TX-0136,2026-09-10,Financial Reporting,E03,consolidation,Meridian Group - Lagos,USD+EUR+GBP,471834.34,PROC-FR-07,posted
+TX-0137,2026-09-10,Financial Reporting,E03,consolidation,Meridian Holdings,GBP+NGN,1843018.0,PROC-FR-07,posted
+TX-0138,2026-09-11,Accounts Payable,E04,vendor_reconciliation,Tidewater Freight,NGN,22491.84,PROC-AP-08,posted
+TX-0139,2026-09-11,Accounts Payable,E04,invoice_entry,Brightline Supplies,USD,126952.25,PROC-AP-02,rejected_by_review
+TX-0140,2026-09-11,Accounts Payable,E04,payment_run,Pinnacle Packaging,USD,33938.01,PROC-AP-05,posted
+TX-0141,2026-09-11,Accounts Payable,E04,invoice_entry,Pinnacle Packaging,USD,15054.67,PROC-AP-02,posted
+TX-0142,2026-09-11,Accounts Payable,E04,vendor_reconciliation,Kora Logistics,USD,35382.38,PROC-AP-08,posted
+TX-0143,2026-09-11,Accounts Payable,E06,vendor_reconciliation,Harbor IT Services,USD,43123.86,PROC-AP-08,posted
+TX-0144,2026-09-11,Accounts Payable,E06,vendor_reconciliation,Brightline Supplies,USD,93428.75,PROC-AP-08,posted
+TX-0145,2026-09-11,Accounts Payable,E04,vendor_reconciliation,Olu Print Works,USD,94115.28,PROC-AP-08,posted
+TX-0146,2026-09-11,Accounts Receivable,E07,invoice_issue,Jade Capital,USD,74750.28,PROC-AR-01,posted
+TX-0147,2026-09-11,Accounts Receivable,E07,invoice_issue,Ivory Hotels,USD,74715.58,PROC-AR-01,rejected_by_review
+TX-0148,2026-09-11,Accounts Receivable,E07,receipt_matching,Jade Capital,USD,14657.86,PROC-AR-04,posted
+TX-0149,2026-09-11,Accounts Receivable,E08,credit_note,Falcon Mining,USD,14485.38,PROC-AR-06,corrected_in_review
+TX-0150,2026-09-11,Accounts Receivable,E08,invoice_issue,Crestline Motors,EUR,34146.92,PROC-AR-01,posted
+TX-0151,2026-09-11,Accounts Receivable,E08,receipt_matching,Gateway Telecom,NGN,12861.6,PROC-AR-04,posted
+TX-0152,2026-09-11,Accounts Receivable,E08,invoice_issue,Evergreen Pharma,USD,61694.89,PROC-AR-01,posted
+TX-0153,2026-09-11,Financial Reporting,E02,reconciliation,Meridian Group - Accra,USD,111366.54,PROC-FR-03,posted
+TX-0154,2026-09-11,Financial Reporting,E01,consolidation,Meridian Holdings,USD,521420.48,PROC-FR-07,posted
+TX-0155,2026-09-11,Financial Reporting,E03,reconciliation,Meridian Holdings,USD,396170.39,PROC-FR-03,posted
+TX-0156,2026-09-11,Financial Reporting,E01,reconciliation,Meridian Group - London,USD,286839.19,PROC-FR-03,posted
+TX-0157,2026-09-11,Financial Reporting,E03,report_prep,Meridian Holdings,USD,746098.11,PROC-FR-11,posted
+TX-0158,2026-09-11,Financial Reporting,E02,consolidation,Meridian Group - Accra,USD,1349776.35,PROC-FR-07,posted
+TX-0159,2026-09-14,Accounts Payable,E06,payment_run,Brightline Supplies,USD,36465.64,PROC-AP-05,posted
+TX-0160,2026-09-14,Accounts Payable,E04,payment_run,Summit Insurance,USD,203025.65,PROC-AP-05,posted
+TX-0161,2026-09-14,Accounts Payable,E04,invoice_entry,Nexa Office Ltd,GBP,11485.12,PROC-AP-02,posted
+TX-0162,2026-09-14,Accounts Payable,E04,vendor_reconciliation,Savanna Utilities,USD,71622.47,PROC-AP-08,rejected_by_review
+TX-0163,2026-09-14,Accounts Payable,E04,payment_run,Brightline Supplies,USD,94914.01,PROC-AP-05,posted
+TX-0164,2026-09-14,Accounts Receivable,E08,receipt_matching,Dune Energy,USD,32681.76,PROC-AR-04,posted
+TX-0165,2026-09-14,Accounts Receivable,E08,invoice_issue,Crestline Motors,USD,73614.82,PROC-AR-01,posted
+TX-0166,2026-09-14,Accounts Receivable,E07,receipt_matching,Crestline Motors,USD,2190.45,PROC-AR-04,posted
+TX-0167,2026-09-14,Accounts Receivable,E08,receipt_matching,Evergreen Pharma,USD,36142.45,PROC-AR-04,posted
+TX-0168,2026-09-14,Financial Reporting,E01,reconciliation,Meridian Group - London,USD,8927.04,PROC-FR-03,posted
+TX-0169,2026-09-14,Financial Reporting,E01,consolidation,Meridian Group - London,EUR+GBP,1564101.44,PROC-FR-07,rejected_by_review
+TX-0170,2026-09-15,Accounts Payable,E04,invoice_entry,Olu Print Works,USD,30836.91,PROC-AP-02,posted
+TX-0171,2026-09-15,Accounts Payable,E04,vendor_reconciliation,Delta Courier,USD,7183.66,PROC-AP-08,posted
+TX-0172,2026-09-15,Accounts Payable,E06,invoice_entry,Pinnacle Packaging,USD,9391.08,PROC-AP-02,posted
+TX-0173,2026-09-15,Accounts Payable,E05,vendor_reconciliation,Greenfield Agro,USD,61190.46,PROC-AP-08,posted
+TX-0174,2026-09-15,Accounts Payable,E06,vendor_reconciliation,Tidewater Freight,USD,13969.66,PROC-AP-08,posted
+TX-0175,2026-09-15,Accounts Payable,E06,payment_run,Greenfield Agro,USD,74450.22,PROC-AP-05,posted
+TX-0176,2026-09-15,Accounts Payable,E06,vendor_reconciliation,Orbit Telecom,USD,67207.41,PROC-AP-08,posted
+TX-0177,2026-09-15,Accounts Payable,E05,vendor_reconciliation,Pinnacle Packaging,USD,2830.9,PROC-AP-08,posted
+TX-0178,2026-09-15,Accounts Receivable,E07,receipt_matching,Evergreen Pharma,USD,45313.15,PROC-AR-04,posted
+TX-0179,2026-09-15,Accounts Receivable,E07,invoice_issue,Jade Capital,NGN,57769.58,PROC-AR-01,posted
+TX-0180,2026-09-15,Accounts Receivable,E08,invoice_issue,Horizon Textiles,USD,5374.54,PROC-AR-01,rejected_by_review
+TX-0181,2026-09-15,Financial Reporting,E02,consolidation,Meridian Group - Accra,USD,1613591.07,PROC-FR-07,posted
+TX-0182,2026-09-15,Financial Reporting,E03,consolidation,Meridian Group - Lagos,USD,312291.49,PROC-FR-07,posted
+TX-0183,2026-09-15,Financial Reporting,E03,reconciliation,Meridian Group - Accra,USD,152801.73,PROC-FR-03,posted
+TX-0184,2026-09-15,Financial Reporting,E01,report_prep,Meridian Group - London,USD,219882.25,PROC-FR-11,posted
+TX-0185,2026-09-15,Financial Reporting,E03,consolidation,Meridian Group - Accra,USD+EUR+GBP,120488.69,PROC-FR-07,corrected_in_review
+TX-0186,2026-09-15,Financial Reporting,E01,consolidation,Meridian Group - London,USD,1740878.37,PROC-FR-07,posted
+TX-0187,2026-09-16,Accounts Payable,E06,invoice_entry,Kora Logistics,USD,28826.62,PROC-AP-02,posted
+TX-0188,2026-09-16,Accounts Payable,E06,vendor_reconciliation,Olu Print Works,USD,70558.71,PROC-AP-08,posted
+TX-0189,2026-09-16,Accounts Payable,E05,invoice_entry,Brightline Supplies,USD,26723.78,PROC-AP-02,posted
+TX-0190,2026-09-16,Accounts Payable,E04,payment_run,Summit Insurance,USD,12539.5,PROC-AP-05,posted
+TX-0191,2026-09-16,Accounts Payable,E06,payment_run,Harbor IT Services,USD,102229.66,PROC-AP-05,posted
+TX-0192,2026-09-16,Accounts Payable,E06,invoice_entry,Summit Insurance,GBP,35075.7,PROC-AP-02,posted
+TX-0193,2026-09-16,Accounts Receivable,E08,receipt_matching,Bluewave Foods,USD,12598.24,PROC-AR-04,posted
+TX-0194,2026-09-16,Accounts Receivable,E08,invoice_issue,Jade Capital,EUR,40603.76,PROC-AR-01,posted
+TX-0195,2026-09-16,Accounts Receivable,E07,credit_note,Ivory Hotels,USD,9928.95,PROC-AR-06,rejected_by_review
+TX-0196,2026-09-16,Accounts Receivable,E07,receipt_matching,Ivory Hotels,USD,6929.88,PROC-AR-04,corrected_in_review
+TX-0197,2026-09-16,Accounts Receivable,E07,invoice_issue,Atlas Retail,USD,9739.9,PROC-AR-01,posted
+TX-0198,2026-09-16,Accounts Receivable,E07,invoice_issue,Ivory Hotels,USD,16062.63,PROC-AR-01,posted
+TX-0199,2026-09-16,Accounts Receivable,E08,credit_note,Falcon Mining,GBP,12014.37,PROC-AR-06,posted
+TX-0200,2026-09-16,Accounts Receivable,E07,receipt_matching,Crestline Motors,USD,34060.89,PROC-AR-04,posted
+TX-0201,2026-09-16,Financial Reporting,E03,consolidation,Meridian Group - Lagos,USD,1461663.22,PROC-FR-07,posted
+TX-0202,2026-09-16,Financial Reporting,E02,reconciliation,Meridian Holdings,USD,245013.37,PROC-FR-03,corrected_in_review
+TX-0203,2026-09-16,Financial Reporting,E03,consolidation,Meridian Group - Lagos,USD,292796.49,PROC-FR-07,posted
+TX-0204,2026-09-16,Financial Reporting,E01,reconciliation,Meridian Holdings,USD,172789.56,PROC-FR-03,posted
+TX-0205,2026-09-16,Financial Reporting,E03,consolidation,Meridian Group - Accra,GBP+NGN,1877272.03,PROC-FR-07,corrected_in_review
+TX-0206,2026-09-17,Accounts Payable,E06,payment_run,Pinnacle Packaging,NGN,30440.52,PROC-AP-05,corrected_in_review
+TX-0207,2026-09-17,Accounts Payable,E05,invoice_entry,Kora Logistics,USD,1810.12,PROC-AP-02,posted
+TX-0208,2026-09-17,Accounts Payable,E04,payment_run,Tidewater Freight,NGN,99553.35,PROC-AP-05,corrected_in_review
+TX-0209,2026-09-17,Accounts Payable,E04,invoice_entry,Kora Logistics,NGN,16127.85,PROC-AP-02,posted
+TX-0210,2026-09-17,Accounts Payable,E06,vendor_reconciliation,Pinnacle Packaging,USD,103706.71,PROC-AP-08,posted
+TX-0211,2026-09-17,Accounts Receivable,E08,receipt_matching,Falcon Mining,NGN,14867.68,PROC-AR-04,posted
+TX-0212,2026-09-17,Accounts Receivable,E07,receipt_matching,Gateway Telecom,USD,43150.32,PROC-AR-04,posted
+TX-0213,2026-09-17,Accounts Receivable,E07,credit_note,Dune Energy,GBP,14043.83,PROC-AR-06,posted
+TX-0214,2026-09-17,Accounts Receivable,E08,receipt_matching,Atlas Retail,USD,11675.47,PROC-AR-04,posted
+TX-0215,2026-09-17,Accounts Receivable,E08,invoice_issue,Jade Capital,USD,57263.59,PROC-AR-01,posted
+TX-0216,2026-09-17,Accounts Receivable,E08,invoice_issue,Dune Energy,USD,23140.52,PROC-AR-01,posted
+TX-0217,2026-09-17,Accounts Receivable,E08,receipt_matching,Crestline Motors,USD,50542.81,PROC-AR-04,posted
+TX-0218,2026-09-17,Accounts Receivable,E07,invoice_issue,Crestline Motors,NGN,32893.42,PROC-AR-01,rejected_by_review
+TX-0219,2026-09-17,Financial Reporting,E02,report_prep,Meridian Group - Lagos,NGN,587337.74,PROC-FR-11,rejected_by_review
+TX-0220,2026-09-17,Financial Reporting,E03,report_prep,Meridian Group - Accra,EUR,890245.08,PROC-FR-11,posted
+TX-0221,2026-09-17,Financial Reporting,E01,consolidation,Meridian Group - Accra,EUR,732508.52,PROC-FR-07,posted
+TX-0222,2026-09-17,Financial Reporting,E01,report_prep,Meridian Group - London,USD,362352.79,PROC-FR-11,posted
+TX-0223,2026-09-17,Financial Reporting,E02,reconciliation,Meridian Group - Lagos,USD,75517.82,PROC-FR-03,posted
+TX-0224,2026-09-18,Accounts Payable,E04,invoice_entry,Greenfield Agro,USD,800.63,PROC-AP-02,rejected_by_review
+TX-0225,2026-09-18,Accounts Payable,E04,invoice_entry,Brightline Supplies,USD,32115.96,PROC-AP-02,posted
+TX-0226,2026-09-18,Accounts Payable,E04,invoice_entry,Nexa Office Ltd,USD,36494.36,PROC-AP-02,posted
+TX-0227,2026-09-18,Accounts Payable,E05,invoice_entry,Greenfield Agro,USD,25895.04,PROC-AP-02,posted
+TX-0228,2026-09-18,Accounts Payable,E05,vendor_reconciliation,Savanna Utilities,USD,13133.27,PROC-AP-08,posted
+TX-0229,2026-09-18,Accounts Payable,E05,invoice_entry,Orbit Telecom,NGN,25760.05,PROC-AP-02,posted
+TX-0230,2026-09-18,Accounts Payable,E06,invoice_entry,Nexa Office Ltd,NGN,50852.49,PROC-AP-02,posted
+TX-0231,2026-09-18,Accounts Payable,E05,invoice_entry,Tidewater Freight,USD,57310.48,PROC-AP-02,corrected_in_review
+TX-0232,2026-09-18,Accounts Payable,E04,vendor_reconciliation,Olu Print Works,USD,52842.09,PROC-AP-08,posted
+TX-0233,2026-09-18,Accounts Payable,E06,vendor_reconciliation,Greenfield Agro,USD,61119.98,PROC-AP-08,posted
+TX-0234,2026-09-18,Accounts Receivable,E07,invoice_issue,Horizon Textiles,USD,42437.55,PROC-AR-01,posted
+TX-0235,2026-09-18,Accounts Receivable,E07,receipt_matching,Bluewave Foods,USD,27382.94,PROC-AR-04,posted
+TX-0236,2026-09-18,Accounts Receivable,E07,receipt_matching,Crestline Motors,EUR,9928.6,PROC-AR-04,posted
+TX-0237,2026-09-18,Accounts Receivable,E07,invoice_issue,Gateway Telecom,USD,14239.59,PROC-AR-01,posted
+TX-0238,2026-09-18,Accounts Receivable,E07,receipt_matching,Jade Capital,GBP,53036.8,PROC-AR-04,posted
+TX-0239,2026-09-18,Accounts Receivable,E07,credit_note,Atlas Retail,USD,5896.76,PROC-AR-06,posted
+TX-0240,2026-09-18,Accounts Receivable,E08,invoice_issue,Falcon Mining,EUR,10308.26,PROC-AR-01,posted
+TX-0241,2026-09-18,Accounts Receivable,E08,invoice_issue,Gateway Telecom,USD,29214.47,PROC-AR-01,corrected_in_review
+TX-0242,2026-09-18,Accounts Receivable,E08,invoice_issue,Crestline Motors,USD,78745.39,PROC-AR-01,posted
+TX-0243,2026-09-18,Accounts Receivable,E08,invoice_issue,Falcon Mining,USD,72465.3,PROC-AR-01,corrected_in_review
+TX-0244,2026-09-18,Financial Reporting,E01,consolidation,Meridian Group - London,EUR+GBP,1227277.88,PROC-FR-07,posted
+TX-0245,2026-09-18,Financial Reporting,E03,consolidation,Meridian Group - Accra,USD,472558.03,PROC-FR-07,posted
+TX-0246,2026-09-18,Financial Reporting,E03,consolidation,Meridian Group - London,USD+EUR+GBP,1007522.64,PROC-FR-07,posted
+TX-0247,2026-09-21,Accounts Payable,E04,payment_run,Nexa Office Ltd,NGN,5816.89,PROC-AP-05,posted
+TX-0248,2026-09-21,Accounts Payable,E06,vendor_reconciliation,Greenfield Agro,USD,39152.31,PROC-AP-08,posted
+TX-0249,2026-09-21,Accounts Payable,E05,payment_run,Pinnacle Packaging,USD,162859.91,PROC-AP-05,posted
+TX-0250,2026-09-21,Accounts Payable,E06,invoice_entry,Summit Insurance,GBP,46044.84,PROC-AP-02,corrected_in_review
+TX-0251,2026-09-21,Accounts Payable,E05,invoice_entry,Delta Courier,USD,20429.29,PROC-AP-02,posted
+TX-0252,2026-09-21,Accounts Payable,E06,invoice_entry,Olu Print Works,USD,37873.31,PROC-AP-02,posted
+TX-0253,2026-09-21,Accounts Receivable,E08,invoice_issue,Dune Energy,USD,35304.67,PROC-AR-01,rejected_by_review
+TX-0254,2026-09-21,Accounts Receivable,E08,invoice_issue,Jade Capital,EUR,48936.46,PROC-AR-01,posted
+TX-0255,2026-09-21,Accounts Receivable,E08,credit_note,Dune Energy,EUR,4743.96,PROC-AR-06,posted
+TX-0256,2026-09-21,Financial Reporting,E01,consolidation,Meridian Group - Lagos,GBP+NGN,504179.55,PROC-FR-07,rejected_by_review
+TX-0257,2026-09-21,Financial Reporting,E02,consolidation,Meridian Group - London,EUR,166475.77,PROC-FR-07,posted
+TX-0258,2026-09-22,Accounts Payable,E04,invoice_entry,Kora Logistics,USD,17100.67,PROC-AP-02,posted
+TX-0259,2026-09-22,Accounts Payable,E06,payment_run,Tidewater Freight,GBP,238264.13,PROC-AP-05,posted
+TX-0260,2026-09-22,Accounts Payable,E06,invoice_entry,Delta Courier,USD,54691.37,PROC-AP-02,posted
+TX-0261,2026-09-22,Accounts Payable,E05,payment_run,Delta Courier,NGN,124592.28,PROC-AP-05,posted
+TX-0262,2026-09-22,Accounts Payable,E06,vendor_reconciliation,Harbor IT Services,USD,33585.94,PROC-AP-08,posted
+TX-0263,2026-09-22,Accounts Payable,E06,invoice_entry,Harbor IT Services,USD,13978.59,PROC-AP-02,rejected_by_review
+TX-0264,2026-09-22,Accounts Payable,E06,invoice_entry,Savanna Utilities,GBP,17127.33,PROC-AP-02,posted
+TX-0265,2026-09-22,Accounts Payable,E05,payment_run,Orbit Telecom,USD,49704.79,PROC-AP-05,posted
+TX-0266,2026-09-22,Accounts Receivable,E07,credit_note,Ivory Hotels,GBP,7339.91,PROC-AR-06,posted
+TX-0267,2026-09-22,Accounts Receivable,E07,invoice_issue,Gateway Telecom,USD,29996.02,PROC-AR-01,posted
+TX-0268,2026-09-22,Accounts Receivable,E07,credit_note,Evergreen Pharma,USD,2095.32,PROC-AR-06,rejected_by_review
+TX-0269,2026-09-22,Financial Reporting,E03,consolidation,Meridian Group - London,EUR+GBP,1734064.86,PROC-FR-07,rejected_by_review
+TX-0270,2026-09-22,Financial Reporting,E01,report_prep,Meridian Group - Lagos,USD,592272.98,PROC-FR-11,rejected_by_review
+TX-0271,2026-09-22,Financial Reporting,E03,report_prep,Meridian Group - London,USD,525535.31,PROC-FR-11,posted
+TX-0272,2026-09-22,Financial Reporting,E03,consolidation,Meridian Group - Accra,USD,1003721.22,PROC-FR-07,posted
+TX-0273,2026-09-23,Accounts Payable,E05,invoice_entry,Olu Print Works,GBP,16204.84,PROC-AP-02,posted
+TX-0274,2026-09-23,Accounts Payable,E05,vendor_reconciliation,Brightline Supplies,USD,114439.38,PROC-AP-08,posted
+TX-0275,2026-09-23,Accounts Payable,E06,invoice_entry,Olu Print Works,USD,33044.84,PROC-AP-02,corrected_in_review
+TX-0276,2026-09-23,Accounts Payable,E04,vendor_reconciliation,Greenfield Agro,GBP,11015.65,PROC-AP-08,posted
+TX-0277,2026-09-23,Accounts Payable,E05,invoice_entry,Greenfield Agro,USD,26914.3,PROC-AP-02,posted
+TX-0278,2026-09-23,Accounts Payable,E04,invoice_entry,Greenfield Agro,USD,22682.09,PROC-AP-02,posted
+TX-0279,2026-09-23,Accounts Payable,E04,invoice_entry,Harbor IT Services,EUR,47931.78,PROC-AP-02,posted
+TX-0280,2026-09-23,Accounts Payable,E05,invoice_entry,Summit Insurance,NGN,44304.79,PROC-AP-02,posted
+TX-0281,2026-09-23,Accounts Payable,E04,invoice_entry,Pinnacle Packaging,USD,13169.9,PROC-AP-02,posted
+TX-0282,2026-09-23,Accounts Payable,E05,invoice_entry,Pinnacle Packaging,GBP,41817.37,PROC-AP-02,posted
+TX-0283,2026-09-23,Accounts Payable,E05,invoice_entry,Tidewater Freight,NGN,51193.2,PROC-AP-02,posted
+TX-0284,2026-09-23,Accounts Payable,E05,invoice_entry,Kora Logistics,GBP,58481.35,PROC-AP-02,posted
+TX-0285,2026-09-23,Accounts Receivable,E08,invoice_issue,Dune Energy,USD,49212.46,PROC-AR-01,posted
+TX-0286,2026-09-23,Accounts Receivable,E07,invoice_issue,Crestline Motors,USD,57984.6,PROC-AR-01,posted
+TX-0287,2026-09-23,Accounts Receivable,E08,credit_note,Horizon Textiles,USD,4209.35,PROC-AR-06,corrected_in_review
+TX-0288,2026-09-23,Accounts Receivable,E07,receipt_matching,Horizon Textiles,USD,38081.06,PROC-AR-04,posted
+TX-0289,2026-09-23,Accounts Receivable,E08,receipt_matching,Gateway Telecom,USD,52619.01,PROC-AR-04,posted
+TX-0290,2026-09-23,Financial Reporting,E01,report_prep,Meridian Group - London,USD,883552.59,PROC-FR-11,posted
+TX-0291,2026-09-23,Financial Reporting,E02,consolidation,Meridian Group - Accra,EUR+GBP,1986724.99,PROC-FR-07,corrected_in_review
+TX-0292,2026-09-24,Accounts Payable,E04,payment_run,Summit Insurance,USD,168549.2,PROC-AP-05,posted
+TX-0293,2026-09-24,Accounts Payable,E04,payment_run,Brightline Supplies,NGN,115694.82,PROC-AP-05,posted
+TX-0294,2026-09-24,Accounts Payable,E06,payment_run,Olu Print Works,GBP,161506.73,PROC-AP-05,posted
+TX-0295,2026-09-24,Accounts Payable,E04,invoice_entry,Summit Insurance,USD,34309.16,PROC-AP-02,posted
+TX-0296,2026-09-24,Accounts Payable,E06,payment_run,Tidewater Freight,USD,7772.35,PROC-AP-05,posted
+TX-0297,2026-09-24,Accounts Payable,E05,invoice_entry,Harbor IT Services,USD,37195.92,PROC-AP-02,posted
+TX-0298,2026-09-24,Accounts Payable,E06,vendor_reconciliation,Brightline Supplies,USD,103892.68,PROC-AP-08,posted
+TX-0299,2026-09-24,Accounts Payable,E04,invoice_entry,Brightline Supplies,USD,35527.66,PROC-AP-02,posted
+TX-0300,2026-09-24,Accounts Payable,E04,vendor_reconciliation,Savanna Utilities,USD,49828.07,PROC-AP-08,posted
+TX-0301,2026-09-24,Accounts Payable,E06,payment_run,Savanna Utilities,USD,142125.12,PROC-AP-05,rejected_by_review
+TX-0302,2026-09-24,Accounts Payable,E04,invoice_entry,Savanna Utilities,USD,724.51,PROC-AP-02,posted
+TX-0303,2026-09-24,Accounts Payable,E06,vendor_reconciliation,Tidewater Freight,EUR,61758.63,PROC-AP-08,posted
+TX-0304,2026-09-24,Accounts Receivable,E08,credit_note,Dune Energy,USD,14064.94,PROC-AR-06,posted
+TX-0305,2026-09-24,Accounts Receivable,E08,receipt_matching,Horizon Textiles,USD,1738.49,PROC-AR-04,posted
+TX-0306,2026-09-24,Accounts Receivable,E08,credit_note,Falcon Mining,USD,1132.14,PROC-AR-06,posted
+TX-0307,2026-09-24,Accounts Receivable,E08,receipt_matching,Bluewave Foods,EUR,43906.47,PROC-AR-04,posted
+TX-0308,2026-09-24,Accounts Receivable,E08,credit_note,Gateway Telecom,NGN,13874.25,PROC-AR-06,corrected_in_review
+TX-0309,2026-09-24,Accounts Receivable,E07,invoice_issue,Bluewave Foods,USD,59779.55,PROC-AR-01,posted
+TX-0310,2026-09-24,Financial Reporting,E02,reconciliation,Meridian Holdings,EUR,68098.34,PROC-FR-03,posted
+TX-0311,2026-09-24,Financial Reporting,E02,consolidation,Meridian Holdings,USD,665795.13,PROC-FR-07,posted
+TX-0312,2026-09-24,Financial Reporting,E03,report_prep,Meridian Holdings,USD,247353.17,PROC-FR-11,posted
+TX-0313,2026-09-24,Financial Reporting,E03,consolidation,Meridian Group - London,EUR+GBP,924514.39,PROC-FR-07,posted
+TX-0314,2026-09-24,Financial Reporting,E03,consolidation,Meridian Group - Accra,EUR+GBP,1516220.95,PROC-FR-07,corrected_in_review
+TX-0315,2026-09-25,Accounts Payable,E05,payment_run,Greenfield Agro,USD,141388.43,PROC-AP-05,posted
+TX-0316,2026-09-25,Accounts Payable,E06,invoice_entry,Pinnacle Packaging,NGN,44820.82,PROC-AP-02,posted
+TX-0317,2026-09-25,Accounts Payable,E04,invoice_entry,Greenfield Agro,USD,25895.04,PROC-AP-02,rejected_by_review
+TX-0318,2026-09-25,Accounts Payable,E06,invoice_entry,Orbit Telecom,USD,3783.26,PROC-AP-02,posted
+TX-0319,2026-09-25,Accounts Payable,E05,vendor_reconciliation,Delta Courier,EUR,76226.78,PROC-AP-08,posted
+TX-0320,2026-09-25,Accounts Payable,E05,invoice_entry,Delta Courier,USD,25415.14,PROC-AP-02,corrected_in_review
+TX-0321,2026-09-25,Accounts Payable,E04,invoice_entry,Savanna Utilities,GBP,56557.46,PROC-AP-02,posted
+TX-0322,2026-09-25,Accounts Payable,E06,payment_run,Greenfield Agro,USD,198334.89,PROC-AP-05,posted
+TX-0323,2026-09-25,Accounts Payable,E05,vendor_reconciliation,Savanna Utilities,GBP,11309.6,PROC-AP-08,corrected_in_review
+TX-0324,2026-09-25,Accounts Payable,E04,invoice_entry,Summit Insurance,USD,26161.54,PROC-AP-02,posted
+TX-0325,2026-09-25,Accounts Receivable,E07,receipt_matching,Gateway Telecom,NGN,9475.63,PROC-AR-04,posted
+TX-0326,2026-09-25,Accounts Receivable,E08,receipt_matching,Jade Capital,USD,40871.51,PROC-AR-04,posted
+TX-0327,2026-09-25,Accounts Receivable,E07,receipt_matching,Ivory Hotels,USD,61038.57,PROC-AR-04,posted
+TX-0328,2026-09-25,Accounts Receivable,E08,invoice_issue,Falcon Mining,GBP,60690.38,PROC-AR-01,posted
+TX-0329,2026-09-25,Accounts Receivable,E08,credit_note,Dune Energy,GBP,11402.83,PROC-AR-06,rejected_by_review
+TX-0330,2026-09-25,Accounts Receivable,E08,receipt_matching,Jade Capital,USD,45231.68,PROC-AR-04,posted
+TX-0331,2026-09-25,Financial Reporting,E01,consolidation,Meridian Group - Lagos,USD+EUR+GBP,313151.72,PROC-FR-07,posted
+TX-0332,2026-09-25,Financial Reporting,E01,report_prep,Meridian Holdings,USD,294627.32,PROC-FR-11,posted
+TX-0333,2026-09-25,Financial Reporting,E02,reconciliation,Meridian Group - Lagos,USD,200027.7,PROC-FR-03,rejected_by_review
+TX-0334,2026-09-25,Financial Reporting,E03,consolidation,Meridian Holdings,EUR+NGN,1310169.21,PROC-FR-07,rejected_by_review
+TX-0335,2026-09-25,Financial Reporting,E01,report_prep,Meridian Group - London,USD,379694.96,PROC-FR-11,posted
+TX-0336,2026-09-25,Financial Reporting,E03,reconciliation,Meridian Group - London,USD,213294.87,PROC-FR-03,posted
+TX-0337,2026-09-25,Financial Reporting,E02,consolidation,Meridian Group - London,USD+EUR+GBP,205773.2,PROC-FR-07,posted
+TX-0338,2026-09-28,Accounts Payable,E06,invoice_entry,Savanna Utilities,NGN,26362.23,PROC-AP-02,posted
+TX-0339,2026-09-28,Accounts Payable,E05,vendor_reconciliation,Harbor IT Services,USD,62805.11,PROC-AP-08,corrected_in_review
+TX-0340,2026-09-28,Accounts Payable,E05,invoice_entry,Greenfield Agro,USD,18017.52,PROC-AP-02,posted
+TX-0341,2026-09-28,Accounts Payable,E04,payment_run,Summit Insurance,NGN,95012.77,PROC-AP-05,posted
+TX-0342,2026-09-28,Accounts Payable,E06,invoice_entry,Brightline Supplies,NGN,6685.79,PROC-AP-02,posted
+TX-0343,2026-09-28,Accounts Payable,E06,payment_run,Savanna Utilities,NGN,188143.31,PROC-AP-05,posted
+TX-0344,2026-09-28,Accounts Payable,E06,invoice_entry,Savanna Utilities,USD,4714.02,PROC-AP-02,posted
+TX-0345,2026-09-28,Accounts Payable,E06,payment_run,Tidewater Freight,USD,22440.81,PROC-AP-05,posted
+TX-0346,2026-09-28,Accounts Payable,E06,invoice_entry,Harbor IT Services,USD,54043.86,PROC-AP-02,posted
+TX-0347,2026-09-28,Accounts Payable,E05,invoice_entry,Brightline Supplies,USD,77259.07,PROC-AP-02,rejected_by_review
+TX-0348,2026-09-28,Accounts Payable,E05,vendor_reconciliation,Olu Print Works,USD,16512.11,PROC-AP-08,posted
+TX-0349,2026-09-28,Accounts Payable,E06,invoice_entry,Savanna Utilities,USD,1107.62,PROC-AP-02,posted
+TX-0350,2026-09-28,Accounts Payable,E06,invoice_entry,Pinnacle Packaging,USD,58872.64,PROC-AP-02,posted
+TX-0351,2026-09-28,Accounts Payable,E06,invoice_entry,Kora Logistics,USD,18252.72,PROC-AP-02,posted
+TX-0352,2026-09-28,Accounts Payable,E05,payment_run,Orbit Telecom,USD,209615.89,PROC-AP-05,posted
+TX-0353,2026-09-28,Accounts Payable,E05,invoice_entry,Orbit Telecom,GBP,58616.66,PROC-AP-02,posted
+TX-0354,2026-09-28,Accounts Payable,E05,payment_run,Brightline Supplies,USD,44173.5,PROC-AP-05,posted
+TX-0355,2026-09-28,Accounts Receivable,E07,invoice_issue,Dune Energy,USD,16516.22,PROC-AR-01,posted
+TX-0356,2026-09-28,Accounts Receivable,E08,invoice_issue,Bluewave Foods,GBP,44727.56,PROC-AR-01,posted
+TX-0357,2026-09-28,Accounts Receivable,E07,credit_note,Evergreen Pharma,USD,11855.86,PROC-AR-06,posted
+TX-0358,2026-09-28,Accounts Receivable,E08,credit_note,Ivory Hotels,USD,5685.34,PROC-AR-06,posted
+TX-0359,2026-09-28,Accounts Receivable,E07,invoice_issue,Evergreen Pharma,USD,1638.05,PROC-AR-01,posted
+TX-0360,2026-09-28,Financial Reporting,E02,reconciliation,Meridian Group - London,EUR,386246.96,PROC-FR-03,posted
+TX-0361,2026-09-28,Financial Reporting,E03,report_prep,Meridian Holdings,EUR,786976.45,PROC-FR-11,rejected_by_review
+TX-0362,2026-09-28,Financial Reporting,E01,consolidation,Meridian Group - Accra,EUR+NGN,2009038.63,PROC-FR-07,rejected_by_review
+TX-0363,2026-09-29,Accounts Payable,E06,invoice_entry,Harbor IT Services,GBP,121306.54,PROC-AP-02,rejected_by_review
+TX-0364,2026-09-29,Accounts Payable,E04,vendor_reconciliation,Brightline Supplies,USD,35502.83,PROC-AP-08,posted
+TX-0365,2026-09-29,Accounts Payable,E06,vendor_reconciliation,Olu Print Works,USD,100851.06,PROC-AP-08,posted
+TX-0366,2026-09-29,Accounts Payable,E06,vendor_reconciliation,Delta Courier,GBP,29671.6,PROC-AP-08,posted
+TX-0367,2026-09-29,Accounts Payable,E04,payment_run,Orbit Telecom,USD,82809.1,PROC-AP-05,posted
+TX-0368,2026-09-29,Accounts Payable,E06,vendor_reconciliation,Orbit Telecom,USD,14662.45,PROC-AP-08,posted
+TX-0369,2026-09-29,Accounts Payable,E04,vendor_reconciliation,Kora Logistics,USD,87174.91,PROC-AP-08,corrected_in_review
+TX-0370,2026-09-29,Accounts Payable,E04,invoice_entry,Tidewater Freight,GBP,16602.43,PROC-AP-02,posted
+TX-0371,2026-09-29,Accounts Payable,E06,payment_run,Delta Courier,NGN,235690.1,PROC-AP-05,posted
+TX-0372,2026-09-29,Accounts Receivable,E08,invoice_issue,Atlas Retail,USD,69514.97,PROC-AR-01,posted
+TX-0373,2026-09-29,Accounts Receivable,E07,invoice_issue,Ivory Hotels,GBP,25192.07,PROC-AR-01,posted
+TX-0374,2026-09-29,Accounts Receivable,E08,credit_note,Jade Capital,USD,9001.83,PROC-AR-06,posted
+TX-0375,2026-09-29,Accounts Receivable,E08,invoice_issue,Gateway Telecom,USD,22538.97,PROC-AR-01,posted
+TX-0376,2026-09-29,Accounts Receivable,E08,invoice_issue,Jade Capital,USD,45569.0,PROC-AR-01,rejected_by_review
+TX-0377,2026-09-29,Financial Reporting,E03,consolidation,Meridian Holdings,USD,170584.36,PROC-FR-07,posted
+TX-0378,2026-09-29,Financial Reporting,E01,reconciliation,Meridian Holdings,USD,266139.8,PROC-FR-03,posted
+TX-0379,2026-09-29,Financial Reporting,E03,consolidation,Meridian Group - Accra,USD+EUR+GBP,1008767.69,PROC-FR-07,posted
+TX-0380,2026-09-29,Financial Reporting,E03,report_prep,Meridian Group - Accra,USD,485826.08,PROC-FR-11,posted
+TX-0381,2026-09-29,Financial Reporting,E02,consolidation,Meridian Holdings,EUR,1640787.45,PROC-FR-07,posted
+TX-0382,2026-09-29,Financial Reporting,E02,reconciliation,Meridian Group - Accra,USD,354180.09,PROC-FR-03,rejected_by_review
+TX-0383,2026-09-30,Accounts Payable,E05,vendor_reconciliation,Kora Logistics,USD,58279.9,PROC-AP-08,rejected_by_review
+TX-0384,2026-09-30,Accounts Payable,E06,payment_run,Nexa Office Ltd,USD,42101.11,PROC-AP-05,rejected_by_review
+TX-0385,2026-09-30,Accounts Payable,E05,invoice_entry,Orbit Telecom,USD,57335.54,PROC-AP-02,posted
+TX-0386,2026-09-30,Accounts Payable,E04,vendor_reconciliation,Savanna Utilities,NGN,67654.27,PROC-AP-08,posted
+TX-0387,2026-09-30,Accounts Payable,E06,invoice_entry,Tidewater Freight,USD,26594.93,PROC-AP-02,posted
+TX-0388,2026-09-30,Accounts Payable,E05,vendor_reconciliation,Harbor IT Services,USD,87142.96,PROC-AP-08,posted
+TX-0389,2026-09-30,Accounts Payable,E05,payment_run,Pinnacle Packaging,USD,16518.78,PROC-AP-05,posted
+TX-0390,2026-09-30,Accounts Payable,E06,vendor_reconciliation,Pinnacle Packaging,USD,80571.05,PROC-AP-08,posted
+TX-0391,2026-09-30,Accounts Payable,E06,invoice_entry,Pinnacle Packaging,USD,13925.35,PROC-AP-02,posted
+TX-0392,2026-09-30,Accounts Payable,E05,invoice_entry,Orbit Telecom,GBP,45625.09,PROC-AP-02,rejected_by_review
+TX-0393,2026-09-30,Accounts Receivable,E07,receipt_matching,Horizon Textiles,USD,34544.24,PROC-AR-04,posted
+TX-0394,2026-09-30,Accounts Receivable,E07,receipt_matching,Crestline Motors,USD,48589.53,PROC-AR-04,posted
+TX-0395,2026-09-30,Accounts Receivable,E07,credit_note,Crestline Motors,USD,14920.89,PROC-AR-06,posted
+TX-0396,2026-09-30,Accounts Receivable,E08,invoice_issue,Horizon Textiles,USD,5448.15,PROC-AR-01,posted
+TX-0397,2026-09-30,Accounts Receivable,E07,invoice_issue,Crestline Motors,EUR,13781.19,PROC-AR-01,posted
+TX-0398,2026-09-30,Accounts Receivable,E07,credit_note,Jade Capital,GBP,11888.83,PROC-AR-06,posted
+TX-0399,2026-09-30,Financial Reporting,E03,consolidation,Meridian Group - Lagos,USD+EUR+GBP,1914316.4,PROC-FR-07,posted
+TX-0400,2026-09-30,Financial Reporting,E03,consolidation,Meridian Group - Accra,USD+EUR+GBP,635362.58,PROC-FR-07,posted

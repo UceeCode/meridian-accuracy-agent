@@ -1,0 +1,15 @@
+procedure_id,version,effective_date,approved_by,approved_on,title,change_note
+PROC-FR-03,v1,2025-03-01,Controller,2025-02-20,Bank and ledger reconciliation,Initial version
+PROC-FR-07,v1,2024-06-01,Controller,2024-05-20,Multi-entity consolidation,Initial version
+PROC-FR-07,v2,2026-01-12,Controller,2026-01-05,Multi-entity consolidation,Consolidated total rounded once at consolidation level
+PROC-FR-07,v3,2026-09-14,CFO,2026-09-10,Multi-entity consolidation,"Round each line item to whole currency unit before consolidation, to align with board reporting format. Effective immediately; staff briefing deferred."
+PROC-FR-07,v3.1,2026-09-29,Controller,2026-09-28,Multi-entity consolidation,Clarified rounding step for multi-currency consolidations.
+PROC-FR-11,v1,2025-07-15,Head of Finance Operations,2025-07-08,Financial report preparation,Initial version
+PROC-AP-02,v3,2025-11-03,Head of Finance Operations,2025-10-27,Supplier invoice entry,Added attachment requirement
+PROC-AP-02,v4,2026-08-03,Head of Finance Operations,2026-07-28,Supplier invoice entry,Added three-way match tolerance of 1%
+PROC-AP-05,v2,2026-02-02,Controller,2026-01-26,Payment run,Added dual-approval above threshold
+PROC-AP-08,v1,2025-05-12,Head of Finance Operations,2025-05-05,Vendor statement reconciliation,Initial version
+PROC-AR-01,v3,2026-03-09,Head of Finance Operations,2026-03-02,Customer invoice issue,Updated invoice template
+PROC-AR-04,v1,2025-04-01,Head of Finance Operations,2025-03-25,Receipt matching,Initial version
+PROC-AR-04,v2,2026-09-01,Head of Finance Operations,2026-08-25,Receipt matching,Moved to sequence-first matching; second manual check removed
+PROC-AR-06,v1,2025-09-01,Controller,2025-08-25,Credit note issue,Initial version

@@ -1,0 +1,9 @@
+employee_id,name,department,role,start_date
+E01,Adaeze Obi,Financial Reporting,Senior Accountant,2021-04-12
+E02,Tunde Bello,Financial Reporting,Accountant,2023-02-06
+E03,Chiamaka Eze,Financial Reporting,Accountant,2024-01-15
+E04,Samuel Nwosu,Accounts Payable,Senior Accountant,2020-09-01
+E05,Ifeoma Udeh,Accounts Payable,Accountant,2022-06-20
+E06,Emeka Chukwu,Accounts Payable,Accounts Clerk,2025-03-03
+E07,Halima Sani,Accounts Receivable,Senior Accountant,2021-11-08
+E08,Kelechi Ibe,Accounts Receivable,Accounts Clerk,2024-08-19
